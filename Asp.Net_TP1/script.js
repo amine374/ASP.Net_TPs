@@ -31,6 +31,17 @@ $(document).ready(function()
         }*/
     });
 
+    /*$('select[name="valeur"]').on('click', function()
+    {
+        $(".ppp").text($(".item").val());
+    });*/
+
+    $('.item').find('').map(function () {
+        //alert($(this).text());
+        $(".ppp").text($(this).text());
+        });
+    
+
 })
 
 /*function toggle(className, obj)
